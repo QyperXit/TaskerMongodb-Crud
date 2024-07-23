@@ -9,7 +9,7 @@ const HeadingText = ({
 }) => {
   return (
     <div className=" flex flex-col">
-      <h1 className=" md:text-3xl text-2xl font-medium title-font text-gray-900 mb-1">
+      <h1 className=" md:text-3xl text-2xl title-font mb-1 bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent  font-extrabold">
         {title}
       </h1>
       <p className=" text-base leading-relaxed  text-blue-500">{description}</p>
